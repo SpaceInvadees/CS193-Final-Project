@@ -1,0 +1,142 @@
+/* The code below puts the title of the website in the center */
+.title { 
+    text-align: center;
+    font-size: 500%;
+    text-shadow: 2px 2px darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* The code below adds a white background-color and black text color for the body of the page. */
+body {
+    color: black;
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lgbtq {
+    width: 50%;
+}
+
+.white {
+    color: white;
+}
+
+/* The code below adds a black background-color and white text color for each section heading. */
+.section1 {
+    color:white;
+    text-align: center;
+    background-color: black;
+}
+
+.section2 {
+    color:white;
+    text-align: center;
+    background-color: black;
+    padding-left: 4px;
+}
+
+.section3 {
+    color:white;
+    text-align: center;
+    background-color: black;
+}
+
+.section4 {
+    color:white;
+    text-align: center;
+    background-color: black;
+}
+
+a:hover {
+    font-size: 110%;
+    animation-name: rainbow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    0% {color: #ffd800;}
+    50% {color: #7902aa;}
+    100% {color: #ffd800;}
+}
+
+body {
+    background-image: repeating-linear-gradient(90deg, #920606, #a96007 20%, #ada206 40%, #028121 60%, #06349f 80%, #770088);
+    background-size: 101.5%;
+}
+
+.text {
+    background-image: repeating-linear-gradient(90deg, #5bcefb, #f5a9b8, #ffffff, #f5a9b8, #5bcefb);
+    background-clip: text;
+    color: transparent;
+}
+
+li {
+    color: white;
+}
+
+h1 {
+    color:white;
+    margin: 0%;
+}
+
+p {
+    color: white;
+}
+
+.dropdown {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    margin-bottom: auto;
+    z-index: 100;
+    min-height: 55px;
+}
+  
+.dropdown-title {
+    margin-left: 1%;
+    color: white;
+}
+  
+.dropdown-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    max-width: fit-content;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+}
+  
+.dropdown-button:hover {
+    background: linear-gradient(180deg, silver, red, orange, yellow, green, blue, indigo, violet, silver);
+    background-size: 400% 400%;
+    animation: rainbowText;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-clip: text;
+    color: transparent;
+    font-size: 125%;
+}
+  
+@keyframes rainbowText { 
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+}
