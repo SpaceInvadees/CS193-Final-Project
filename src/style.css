@@ -1,9 +1,11 @@
-/* .title { 
+.title { 
     text-align: center;
-    font-size: 500%;
     text-shadow: 2px 2px darkgreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
 
 .dropdown-buttons {
     display: flex;
@@ -13,6 +15,10 @@
 
 .lgbtq {
     width: 50%;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* a:hover {
@@ -52,6 +58,12 @@ p {
     color: white;
 }
 
+/* div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 .dropdown {
     position: fixed;
     display: flex;
@@ -66,6 +78,9 @@ p {
 .dropdown-title {
     margin-left: 1%;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
 .dropdown-button {
