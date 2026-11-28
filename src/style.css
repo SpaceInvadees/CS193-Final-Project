@@ -13,6 +13,28 @@
     align-items: center;
 }
 
+table {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: repeating-linear-gradient(90deg, #c3a600, #591673, #c3a600, #591673, #c3a600);
+    background-clip: text;
+    color: transparent;
+}
+
+tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+td {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
 .lgbtq {
     width: 50%;
 }
@@ -21,7 +43,7 @@ a {
     text-decoration: none;
 }
 
-/* a:hover {
+a:hover {
     font-size: 110%;
     animation-name: rainbow;
     animation-duration: 20s;
@@ -32,7 +54,7 @@ a {
     0% {color: #ffd800;}
     50% {color: #7902aa;}
     100% {color: #ffd800;}
-} */
+}
 
 body {
     background-image: repeating-linear-gradient(90deg, #920606, #a96007 20%, #ada206 40%, #028121 60%, #06349f 80%, #770088);
@@ -93,7 +115,7 @@ p {
     justify-content: center;
 }
   
-/* .dropdown-button:hover {
+.dropdown-button:hover {
     background: linear-gradient(180deg, silver, red, orange, yellow, green, blue, indigo, violet, silver);
     background-size: 400% 400%;
     animation: rainbowText;
@@ -102,9 +124,9 @@ p {
     background-clip: text;
     color: transparent;
     font-size: 125%;
-} */
+}
   
-/* @keyframes rainbowText { 
+@keyframes rainbowText { 
     0% {
       background-position: 0% 0%;
     }
@@ -114,4 +136,4 @@ p {
     100% {
       background-position: 0% 0%;
     }
-} */
+}

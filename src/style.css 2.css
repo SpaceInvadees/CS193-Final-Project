@@ -1,0 +1,123 @@
+.title { 
+    text-align: center;
+    text-shadow: 2px 2px darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.dropdown-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tr {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.lgbtq {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* a:hover {
+    font-size: 110%;
+    animation-name: rainbow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    0% {color: #ffd800;}
+    50% {color: #7902aa;}
+    100% {color: #ffd800;}
+} */
+
+body {
+    background-image: repeating-linear-gradient(90deg, #920606, #a96007 20%, #ada206 40%, #028121 60%, #06349f 80%, #770088);
+    background-size: 101.5%;
+}
+
+.text {
+    background-image: repeating-linear-gradient(90deg, #5bcefb, #f5a9b8, #ffffff, #f5a9b8, #5bcefb);
+    background-clip: text;
+    color: transparent;
+}
+
+li {
+    color: white;
+}
+
+h1 {
+    color:white;
+    margin: 0%;
+}
+
+p {
+    color: white;
+}
+
+/* div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.dropdown {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    margin-bottom: auto;
+    z-index: 100;
+    min-height: 55px;
+}
+  
+.dropdown-title {
+    margin-left: 1%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.dropdown-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    max-width: fit-content;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+}
+  
+/* .dropdown-button:hover {
+    background: linear-gradient(180deg, silver, red, orange, yellow, green, blue, indigo, violet, silver);
+    background-size: 400% 400%;
+    animation: rainbowText;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-clip: text;
+    color: transparent;
+    font-size: 125%;
+} */
+  
+/* @keyframes rainbowText { 
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+} */
